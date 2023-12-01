@@ -1,0 +1,121 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #eaf0f2;
+}
+
+body {
+  font: 16px/1.6 Arial, sans-serif;
+}
+
+.jumbotron {
+  padding-top: 15rem;
+  background-color: #B931FC;
+}
+
+.projects {
+  background-color: #B931FC;
+}
+
+/* Portfolio section */
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Add margin-top */
+}
+
+.project {
+  text-align: center;
+  margin: 20px;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #000; /* Border for neat appearance */
+  box-shadow: 3px 3px 5px #888; /* Box shadow for depth */
+}
+
+.project h2 {
+  margin: 10px 0; /* Spacing from above text */
+}
+
+.project p {
+  margin: 10px 0; /* Spacing from above text */
+}
+
+/* Responsive grid adjustments */
+.container .row .col-md-6 {
+  margin-top: 35px;
+}
+
+/* Footer section */
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height: 800px) {
+  footer {
+    position: static;
+  }
+
+  header {
+    padding-top: 40px;
+  }
+}
+
+/* Footer styling */
+.footer-distributed {
+  background-color: #2c292f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+.footer-distributed .footer-left {
+  width: 30%;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer-distributed .footer-left img {
+  width: 30%;
+}
+
+.footer-distributed h3 span {
+  color: #e0ac1c;
+}
+
+/* Footer links */
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  
